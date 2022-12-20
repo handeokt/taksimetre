@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+
+public class main {
+    public static void main(String[] args) {
+    double km,perkm=2.20,total=10;
+
+    Scanner girdi=new Scanner(System.in);
+
+    System.out.print("Gidilen km yi giriniz: ");
+    km=girdi.nextDouble();
+
+    total+=km*perkm;
+    System.out.print("Toplam ödenmesi gereken ücret: "+total);
